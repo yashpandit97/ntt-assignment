@@ -2,7 +2,7 @@ name: CI/CD - Dockerized React App
 
 on:
   push:
-    branches: ["main"]   # runs when code is pushed to main
+    branches: ["main"] # runs when code is pushed to main
 
 jobs:
   build-and-push:
